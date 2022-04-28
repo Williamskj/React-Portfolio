@@ -1,0 +1,178 @@
+body {
+  background-image: url("./images/148418.jpeg");
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-color: white;
+  background-size: cover;
+  color: rgb(218, 218, 218);
+  font-size: 20px;
+}
+
+header {
+  background-image: url("./images/photo-1475274047050-1d0c0975c63e.avif");
+  height: 100px;
+
+  border-bottom: 1px solid rgba(255, 255, 255, 0.466);
+
+  margin-bottom: 35px;
+  text-align: center;
+  padding: 17px;
+}
+
+#footer {
+  font-size: 16px;
+  padding: 10px;
+  border-top: 1px solid rgba(255, 255, 255, 0.466);
+  text-shadow: 2px 2px 5px black;
+}
+
+a:link, a:visited {
+  text-decoration: none;
+  color: #80cbc4;
+}
+
+a:hover {
+  color: white;
+}
+
+button {
+  padding: 10px;
+  margin: 5px;
+  background: rgba(255, 255, 255, 0.466);
+  border: 1px solid white;
+}
+
+/* Hero Row */
+#heroRow {
+  margin: 0px;
+  margin-bottom: 20px;
+  padding: 20px;
+  text-align: center;
+  text-shadow: 2px 2px 5px black;
+  font-family: "Gabriola";
+}
+
+#heroCol1 {
+  padding: 20px;
+}
+
+#myPhotoImg {
+  max-width: 50%;
+  max-height: 50%;
+  padding: 20px;
+}
+
+#heroCol2 {
+  padding: 20px;
+  font-size: 30px;
+}
+
+#introSubtitle {
+  font-size: 35px;
+  font-weight: bold;
+  text-shadow: 1px 1px 3px black;
+}
+
+
+/* Content Styling */
+
+
+#aboutMeTitle, #workDesc, #contactMeDesc {
+  text-align: center;
+  font-size: 35px;
+  font-weight: bold;
+  font-family: "Gabriola";
+  color: rgb(211, 211, 211);
+}
+
+#aboutMe {
+  display: none;
+  margin-top: 50px;
+}
+
+#aboutMeText {
+  background: rgba(0, 0, 0, 0.329);
+  font-size: 16px;
+  padding: 15px;
+  border: 1px solid rgba(255, 255, 255, 0.363);
+  margin-top: 20px;
+  margin-bottom: 20px;
+  color: rgb(211, 211, 211);
+}
+
+#aboutMeCol {
+  float: left;
+  padding: 10px;
+}
+
+#aboutMeImg {
+  max-width: 25%;
+  max-height: 25%;
+  padding: 20px;
+}
+
+#workContainer {
+  display: none;
+  margin-top: 50px;
+}
+
+#workRow {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  padding: 20px;
+  font-family: sans-serif;
+}
+
+#campersUnited, #digitalAnvil, #weatherApp, #impulseflights, #booksearchengine, #jate {
+  transition-duration: 0.5s;
+  text-align: center;
+  padding: 10px;
+}
+
+#campersUnited:hover,
+#booksearchengine:hover,
+#weatherApp:hover,
+#digitalAnvil:hover,
+#impulseflights:hover,
+#jate:hover {
+  padding: 0px;
+  box-shadow: inset 0px 0px 8px rgb(179, 20, 253), 0 0 15px rgba(179, 20, 253);
+  text-align: center;
+  padding: 5px;
+}
+
+
+#contactMe {
+  margin-top: 50px;
+  display: none;
+}
+
+#contactMeContent {
+  margin: 50px;
+  text-align: center;
+  padding: 20px;
+}
+
+#contactMeContent img {
+  padding: 30px;
+}
+
+
+/* Fixed bottom menu */
+
+#fixedMenu {
+  display: none;
+}
+
+.aboutMeLink, .workLink, .contactMeLink {
+  font-size: 11px;
+}
+
+.introLink {
+  margin-bottom: 30px;
+}
+
+#fixedMenu a {
+  color: white;
+}
