@@ -28,14 +28,14 @@ const Projects = () => {
         </Row>
         <Row className="center-align" id="workRow">
           <div>
-            <div id="campersUnited">
-              <img src="./assets/images/campersunited.png" useMap="#campersUnited" alt="screenshot of a daily planner" />
-              <map name="campersUnited">
+            <div id="reactDashboard">
+              <img src="./assets/images/reactdashboard.png" useMap="#reactDashboard" alt="screenshot of a React Dashboard" />
+              <map name="reactDashboard">
                 <area shape="rect" coords="15,15,228,232" alt="Computer"
-                  href="https://project-03-03-04-2022.herokuapp.com/" target="_blank" rel="noreferrer" />
+                  href="https://williamskj.github.io/React-Admin-Dashboard/" target="_blank" rel="noreferrer" />
               </map>
             </div>
-            <div id="campersunitedContent" style={styles.cardLinks}><a href="https://project-03-03-04-2022.herokuapp.com/" target="_blank" rel="noreferrer">Live Deployment</a><br /><a href="https://github.com/Williamskj/Project-3" target="_blank" rel="noreferrer">GitHub
+            <div id="reactdashboardContent" style={styles.cardLinks}><a href="https://williamskj.github.io/React-Admin-Dashboard/" target="_blank" rel="noreferrer">Live Deployment</a><br /><a href="https://github.com/Williamskj/React-Admin-Dashboard/tree/main" target="_blank" rel="noreferrer">GitHub
               Repo</a><br /></div>
           </div>
 

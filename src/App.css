@@ -124,13 +124,13 @@ button {
   font-family: sans-serif;
 }
 
-#campersUnited, #digitalAnvil, #weatherApp, #impulseflights, #booksearchengine, #jate {
+#reactDashboard, #digitalAnvil, #weatherApp, #impulseflights, #booksearchengine, #jate {
   transition-duration: 0.5s;
   text-align: center;
   padding: 10px;
 }
 
-#campersUnited:hover,
+#reactDashboard:hover,
 #booksearchengine:hover,
 #weatherApp:hover,
 #digitalAnvil:hover,
